@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <div id="nav" class="flex flex-row">
-      <router-link to="/" class="navigation-link">A propos</router-link> |
-      <router-link to="" class="navigation-link">Formations</router-link> |
-      <router-link to="" class="navigation-link">Projets</router-link> |
+      <router-link to="/about" class="navigation-link">A propos</router-link> |
+      <router-link to="/formations" class="navigation-link">Formations</router-link> |
+      <router-link to="/projets" class="navigation-link">Projets</router-link> |
       <router-link to="" class="navigation-link">CDB</router-link>
 
       <div class="absolute top-0 right-0 flex flex-row">
@@ -45,7 +45,7 @@ html, body {
 }
 
 @font-face {
-  font-family: "zerohour";
+  font-family: "Zero Hour";
   src: url("/assets/Font/zerohour.ttf");
 }
 
@@ -54,7 +54,7 @@ html, body {
 }
 
 .navigation-btn {
-  @apply text-white px-2 h-10 mt-6 border border-white rounded mr-5 hover:text-black hover:bg-white;
+  @apply text-white bg-primary px-2 h-10 mt-6 rounded mr-5 hover:text-black hover:bg-white;
 }
 
 #app {
