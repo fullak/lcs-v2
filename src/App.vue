@@ -17,7 +17,6 @@
         <router-link to="/">
           <img src="../src/assets/img/mainleve.png" alt="" class="h-20 px-2 py-2">
         </router-link>
-        <!-- testing line -->
       </div>
     </div>
     <router-view/>
