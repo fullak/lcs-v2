@@ -1,10 +1,6 @@
 <template>
   <div class="container flex flex-col mx-auto">
-    <nav class="flex flex-row px-8 mt-10">
-      <router-link to="" class="navigation-formations">Python</router-link>
-      <router-link to="" class="navigation-formations">HTML</router-link>
-      <router-link to="" class="navigation-formations">CSS</router-link>
-    </nav>
+    <SubNavigation />
 
     <div class="container flex flex-row flex-wrap justify-center mt-10">
       <Card title="test this shit!" img="pythonfeatured.jpg" link="http://www.google.com/"/>
@@ -19,19 +15,14 @@
 </template>
 
 <script>
+import SubNavigation from '../components/sub-navigation.vue';
 import Card from '../components/card.vue';
 
 export default {
   name: 'formations',
   components: {
+    SubNavigation,
     Card,
   }
 }
 </script>
-
-<style lang="scss">
-.navigation-formations {
-  @apply mr-6 border border-white text-white rounded px-8 py-0.5 text-xl hover:text-black hover:bg-white;
-  font-family: "JetBrains Mono", sans-serif;
-}
-</style>
