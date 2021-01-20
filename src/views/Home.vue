@@ -7,7 +7,7 @@
         accompagnant dans les domaines de la programmation, l'informatique, le bricolage, l'électronique, le
         business et pleins d'autre choses.
       </p>
-      <button class="text text-white bg-secondary rounded px-4 py-2 hover:bg-white hover:text-black">En savoir plus...</button>
+      <router-link to="/about" class="text text-white bg-secondary rounded px-4 py-2 hover:bg-white hover:text-black">En savoir plus...</router-link>
     </div>
     
     <div class="xl:mr-20">
